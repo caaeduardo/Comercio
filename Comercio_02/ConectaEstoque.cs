@@ -30,7 +30,7 @@ namespace Comercio_02
       
 
 
-        //CRUD CADESTOQUE
+        //CadastroEstoque
         public void InserirEstoque()
         {
             string sql;
@@ -72,7 +72,7 @@ namespace Comercio_02
         }
 
 
-        //ExcluirCadEstoque
+        //ExcluirCadastroEstoque
         public void ExcluirEstoque()
         {
             string sql;

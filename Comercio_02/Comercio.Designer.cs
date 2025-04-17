@@ -42,6 +42,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.MintCream;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sistemasToolStripMenuItem,
@@ -49,7 +50,8 @@
             this.sairToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -58,69 +60,76 @@
             this.sistemasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.manutençãoToolStripMenuItem,
             this.controleDeEstoqueToolStripMenuItem});
+            this.sistemasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.sistemasToolStripMenuItem.Name = "sistemasToolStripMenuItem";
-            this.sistemasToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.sistemasToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.sistemasToolStripMenuItem.Text = "Sistemas";
             // 
             // manutençãoToolStripMenuItem
             // 
+            this.manutençãoToolStripMenuItem.BackColor = System.Drawing.Color.MintCream;
             this.manutençãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastrosBásicosToolStripMenuItem});
             this.manutençãoToolStripMenuItem.Name = "manutençãoToolStripMenuItem";
-            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.manutençãoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.manutençãoToolStripMenuItem.Text = "Manutenção";
             // 
             // cadastrosBásicosToolStripMenuItem
             // 
+            this.cadastrosBásicosToolStripMenuItem.BackColor = System.Drawing.Color.MintCream;
             this.cadastrosBásicosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientesToolStripMenuItem,
             this.produtosToolStripMenuItem});
             this.cadastrosBásicosToolStripMenuItem.Name = "cadastrosBásicosToolStripMenuItem";
-            this.cadastrosBásicosToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+            this.cadastrosBásicosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastrosBásicosToolStripMenuItem.Text = "Cadastros básicos";
             // 
             // clientesToolStripMenuItem
             // 
+            this.clientesToolStripMenuItem.BackColor = System.Drawing.Color.MintCream;
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(151, 26);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
+            this.produtosToolStripMenuItem.BackColor = System.Drawing.Color.MintCream;
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(151, 26);
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.produtosToolStripMenuItem.Text = "Produtos";
             this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // controleDeEstoqueToolStripMenuItem
             // 
+            this.controleDeEstoqueToolStripMenuItem.BackColor = System.Drawing.Color.MintCream;
             this.controleDeEstoqueToolStripMenuItem.Name = "controleDeEstoqueToolStripMenuItem";
-            this.controleDeEstoqueToolStripMenuItem.Size = new System.Drawing.Size(227, 26);
+            this.controleDeEstoqueToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.controleDeEstoqueToolStripMenuItem.Text = "Controle de Estoque";
             this.controleDeEstoqueToolStripMenuItem.Click += new System.EventHandler(this.controleDeEstoqueToolStripMenuItem_Click);
             // 
             // vendasToolStripMenuItem
             // 
+            this.vendasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
-            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.vendasToolStripMenuItem.Text = "Vendas";
             this.vendasToolStripMenuItem.Click += new System.EventHandler(this.vendasToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
+            this.sairToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // Comercio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Comercio";
             this.Text = "Comercio 2.0";
             this.menuStrip1.ResumeLayout(false);

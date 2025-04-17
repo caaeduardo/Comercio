@@ -164,12 +164,12 @@
             // dgVendas
             // 
             this.dgVendas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgVendas.Location = new System.Drawing.Point(24, 341);
+            this.dgVendas.Location = new System.Drawing.Point(24, 329);
             this.dgVendas.Margin = new System.Windows.Forms.Padding(2);
             this.dgVendas.Name = "dgVendas";
             this.dgVendas.RowHeadersWidth = 51;
             this.dgVendas.RowTemplate.Height = 24;
-            this.dgVendas.Size = new System.Drawing.Size(557, 247);
+            this.dgVendas.Size = new System.Drawing.Size(557, 259);
             this.dgVendas.TabIndex = 25;
             // 
             // txtTotalComDesconto
